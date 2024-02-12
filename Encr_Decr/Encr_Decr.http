@@ -1,0 +1,6 @@
+@Encr_Decr_HostAddress = http://localhost:5208
+
+GET {{Encr_Decr_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
