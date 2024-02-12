@@ -1,0 +1,21 @@
+branch-defaults:
+  main:
+    environment: dotnet-env-stg
+deploy:
+  artifact: deploy.zip
+environment-defaults:
+  dotnet-env-dev:
+    branch: null
+    repository: null
+global:
+  application_name: dotnet-app-1
+  default_ec2_keyname: null
+  default_platform: .NET Core running on 64bit Amazon Linux 2
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  sc: git
+  workspace_type: Application
