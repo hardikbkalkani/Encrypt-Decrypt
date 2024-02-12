@@ -19,7 +19,7 @@ jobs:
         dotnet-version: '6.0.x'
     - name: Publish
       run: 
-        dotnet publish Encr_Decr -o site
+        dotnet publish EncryptDecrypt -o site
     - name: Generate deployment package
       run: cd site && zip -r ../deploy.zip . -x '*.git*'
     - name: Upload .NET to artifact
