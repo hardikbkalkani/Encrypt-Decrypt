@@ -21,7 +21,7 @@ jobs:
       run: 
         dotnet publish EncryptDecrypt -o site
     - name: Generate deployment package
-      run: cd site && zip -r ../deploy.zip . -x '*.git*' && zip -r
+      run: cd site && zip -r ../deploy.zip . #-x '*.git*' && zip -r
     - name: Upload .NET to artifact
       uses: actions/upload-artifact@v3
       with:
