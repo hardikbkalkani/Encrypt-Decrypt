@@ -20,6 +20,7 @@ jobs:
     - name: Publish
       run: 
         dotnet publish EncryptDecrypt -o site
+        cp .ebextensions /site/
     - name: Generate deployment package
       run: cd site && zip -vr ../deploy.zip . .ebextensions
       
