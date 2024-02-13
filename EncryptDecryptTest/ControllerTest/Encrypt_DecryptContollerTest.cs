@@ -22,7 +22,7 @@ namespace Encr_DecrTest.ContollerTest
             var controller = new Encrypt_DecryptContoller();
             var data = new EncrDecrVM
             {
-                Value = value
+                Value = 0
             };
 
             // Act
