@@ -18,20 +18,15 @@ jobs:
       with:
         dotnet-version: '6.0.x'
     - name: Publish
-      run: dotnet publish EncryptDecrypt -o site
-      
-    - name: Copy .ebextensions to site directory
-      run: cp -r EncryptDecrypt/.ebextensions site/
-      
+      run: 
+          dotnet publish EncryptDecrypt -o site
     - name: Generate deployment package
-      run: cd site && zip -r ../deploy.zip .
-      
-      
+      run: cd site && zip -r ../deploy.zip . -x '*.git*'
     - name: Upload .NET to artifact
       uses: actions/upload-artifact@v3
       with:
-        name: dotnet-zip
-        path: deploy.zip
+          name: dotnet-zip
+          path: deploy.zip
     - name: Debug Environment Variables
       run: |
         echo "AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID"
