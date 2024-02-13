@@ -4,7 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Encr_Decr.Controllers
 {
-
+[ApiController]
+[Route("[controller]")]
     public class Encrypt_DecryptContoller : ControllerBase
     {
         private static string keyString = "E546C8DF278CD5931069B522E695D4F2";
