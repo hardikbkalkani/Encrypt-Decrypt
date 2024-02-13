@@ -21,10 +21,11 @@ jobs:
       run: dotnet publish EncryptDecrypt -o site
       
     - name: Copy .ebextensions to site directory
-      run: cp -r .ebextensions site/
+      run: cp -r EncryptDecrypt/.ebextensions site/
       
     - name: Generate deployment package
       run: cd site && zip -r ../deploy.zip .
+      
       
     - name: Upload .NET to artifact
       uses: actions/upload-artifact@v3
