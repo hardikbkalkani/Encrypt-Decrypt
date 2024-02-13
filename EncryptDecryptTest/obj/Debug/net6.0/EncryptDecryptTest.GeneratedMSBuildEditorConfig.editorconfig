@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EncryptDecryptTest
-build_property.ProjectDir = /home/bmvsi-146/Desktop/Encrypt-Decrypt/EncryptDecryptTest/
+build_property.ProjectDir = C:\Users\bmvsi-136\source\repos\EncryptDecrypt\EncryptDecryptTest\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

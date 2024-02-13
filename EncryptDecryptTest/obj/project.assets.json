@@ -6392,32 +6392,34 @@
     ]
   },
   "packageFolders": {
-    "/home/bmvsi-146/.nuget/packages/": {}
+    "C:\\Users\\bmvsi-136\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/bmvsi-146/Desktop/Encrypt-Decrypt/EncryptDecryptTest/EncryptDecryptTest.csproj",
+      "projectUniqueName": "C:\\Users\\bmvsi-136\\source\\repos\\EncryptDecrypt\\EncryptDecryptTest\\EncryptDecryptTest.csproj",
       "projectName": "EncryptDecryptTest",
-      "projectPath": "/home/bmvsi-146/Desktop/Encrypt-Decrypt/EncryptDecryptTest/EncryptDecryptTest.csproj",
-      "packagesPath": "/home/bmvsi-146/.nuget/packages/",
-      "outputPath": "/home/bmvsi-146/Desktop/Encrypt-Decrypt/EncryptDecryptTest/obj/",
+      "projectPath": "C:\\Users\\bmvsi-136\\source\\repos\\EncryptDecrypt\\EncryptDecryptTest\\EncryptDecryptTest.csproj",
+      "packagesPath": "C:\\Users\\bmvsi-136\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bmvsi-136\\source\\repos\\EncryptDecrypt\\EncryptDecryptTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/bmvsi-146/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\bmvsi-136\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/home/bmvsi-146/Desktop/Encrypt-Decrypt/EncryptDecrypt/EncryptDecrypt.csproj": {
-              "projectPath": "/home/bmvsi-146/Desktop/Encrypt-Decrypt/EncryptDecrypt/EncryptDecrypt.csproj"
+            "C:\\Users\\bmvsi-136\\source\\repos\\EncryptDecrypt\\EncryptDecrypt\\EncryptDecrypt.csproj": {
+              "projectPath": "C:\\Users\\bmvsi-136\\source\\repos\\EncryptDecrypt\\EncryptDecrypt\\EncryptDecrypt.csproj"
             }
           }
         }
@@ -6472,22 +6474,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.26, 6.0.26]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.26, 6.0.26]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
