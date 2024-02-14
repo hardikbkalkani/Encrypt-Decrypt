@@ -437,26 +437,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bmvsi-136\\.nuget\\packages\\": {}
+    "/home/bmvsi-146/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bmvsi-136\\source\\repos\\EncryptDecrypt\\EncryptDecrypt\\EncryptDecrypt.csproj",
+      "projectUniqueName": "/home/bmvsi-146/Desktop/Encrypt-Decrypt/EncryptDecrypt/EncryptDecrypt.csproj",
       "projectName": "EncryptDecrypt",
-      "projectPath": "C:\\Users\\bmvsi-136\\source\\repos\\EncryptDecrypt\\EncryptDecrypt\\EncryptDecrypt.csproj",
-      "packagesPath": "C:\\Users\\bmvsi-136\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bmvsi-136\\source\\repos\\EncryptDecrypt\\EncryptDecrypt\\obj\\",
+      "projectPath": "/home/bmvsi-146/Desktop/Encrypt-Decrypt/EncryptDecrypt/EncryptDecrypt.csproj",
+      "packagesPath": "/home/bmvsi-146/.nuget/packages/",
+      "outputPath": "/home/bmvsi-146/Desktop/Encrypt-Decrypt/EncryptDecrypt/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\bmvsi-136\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/bmvsi-146/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -491,6 +489,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.26, 6.0.26]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[6.0.26, 6.0.26]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.26, 6.0.26]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -499,7 +511,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }
